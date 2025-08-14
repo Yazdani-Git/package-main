@@ -1,0 +1,46 @@
+#login {
+    width: 461px;
+
+}
+.login #nav {
+    margin: 24px 0 0;
+    border: 1px solid #c3c4c7;
+    padding: 9px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+}
+body {
+    background: #ffffff;
+    background-image: url(../images/bub.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@media only screen and (max-width: 600px) {
+    #login {
+        width: 90%!important;
+    }
+}
+
+.login form {
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-right: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #58bed5;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+.login h1 {
+
+    display: none;
+}
+#backtoblog {
+
+    display: none;
+}
